@@ -1,2 +1,4 @@
 slurmstepd: error: Unable to create TMPDIR [/wrk/users/kojaakko]: Permission denied
 slurmstepd: error: Setting TMPDIR to /tmp
+slurmstepd: error: *** STEP 69357676.0 ON kale-802 CANCELLED AT 2022-03-21T13:20:01 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 69357676 ON kale-802 CANCELLED AT 2022-03-21T13:20:01 DUE TO TIME LIMIT ***
