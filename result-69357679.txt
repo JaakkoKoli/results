@@ -1,0 +1,2 @@
+slurmstepd: error: Unable to create TMPDIR [/wrk/users/kojaakko]: Permission denied
+slurmstepd: error: Setting TMPDIR to /tmp
