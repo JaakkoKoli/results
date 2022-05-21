@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/proj/kojaakko/fit.py", line 8, in <module>
+    res = fitOne2(df, int(sys.argv[1]), modelFitCMA2)
+  File "/proj/kojaakko/functions/arrayFit.py", line 194, in fitOne2
+    participant = df.iloc[i]
+  File "/proj/kojaakko/pythonEnv/lib/python3.9/site-packages/pandas/core/indexing.py", line 967, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/proj/kojaakko/pythonEnv/lib/python3.9/site-packages/pandas/core/indexing.py", line 1520, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/proj/kojaakko/pythonEnv/lib/python3.9/site-packages/pandas/core/indexing.py", line 1452, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+srun: error: vorna-337: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=72241793.0
